@@ -30,20 +30,14 @@ abstract class AbChild2 extends AbbSecChild1 {
 abstract class AbChild3 extends AbChild2 {
     void m3() {
         System.out.println("M3 Method");
-
-        }
+    }
 }
 class AbChild4 extends AbChild3 {
-    static
-    {
-        System.out.println("hi im in side M3");
-    }
     public static void main(String[] args) {
         AbChild4 a4 = new AbChild4();
         a4.m1();
-        a4.m2();
+//        a4.m2();
         a4.m3();
-        a4.m4();
+//        a4.m4();
     }
-
 }

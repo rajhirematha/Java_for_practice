@@ -31,7 +31,6 @@ abstract class AbChild3 extends AbChild2 {
     void m3() {
         System.out.println("M3 Method");
     }
-
 }
 
 class AbChild4 extends AbChild3 {

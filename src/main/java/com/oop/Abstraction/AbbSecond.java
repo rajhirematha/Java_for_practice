@@ -32,13 +32,12 @@ abstract class AbChild3 extends AbChild2 {
         System.out.println("M3 Method");
     }
 }
-
 class AbChild4 extends AbChild3 {
     public static void main(String[] args) {
         AbChild4 a4 = new AbChild4();
         a4.m1();
-        a4.m2();
+//        a4.m2();
         a4.m3();
-        a4.m4();
+//        a4.m4();
     }
 }

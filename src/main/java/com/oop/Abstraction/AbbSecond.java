@@ -36,7 +36,6 @@ abstract class AbChild3 extends AbChild2 {
 class AbChild4 extends AbChild3 {
     static
     {
-
         System.out.println("hi im in side M3");
     }
     public static void main(String[] args) {
